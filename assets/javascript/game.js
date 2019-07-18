@@ -37,4 +37,16 @@ function reset(){
     $("#total-score").text(score);
 }
 
+ //WINS//
+function winner() {
+
+    alert("Winner!");
+
+    wins ++;
+
+    $("#wins").text(wins);
+
+    //Reset
+    reset();
+}
 
