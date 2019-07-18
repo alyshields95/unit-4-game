@@ -19,4 +19,22 @@ $("#losses").text(losses);
 
 var score = 0;
 
+////
+function reset(){
+
+    randomNumber = Math.floor(Math.random()*101+19);
+
+    $("#number").text(randomNumber);
+    
+    //Reset random number for crystals
+    pinkCrystal = Math.floor(Math.random()*11+1);
+    blueCrystal = Math.floor(Math.random()*11+1);
+    greenCrystal = Math.floor(Math.random()*11+1);
+    yellowCrystal = Math.floor(Math.random()*11+1);
+
+    score = 0;
+
+    $("#total-score").text(score);
+}
+
 
