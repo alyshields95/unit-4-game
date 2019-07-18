@@ -1,0 +1,61 @@
+/* ----CREATE STYLING FOR THE GAME---- */
+
+/* Styling the game header */
+h1 {
+    margin: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+/* Styling the instructions */
+.instructions {
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 20px;
+}
+
+/* Styling the random number container */
+#random-number {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Styling the actual number */
+#number {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+/* Styling the crystal container */
+#crystals {
+    text-align: center;
+}
+
+/* Styling the crystal buttons */
+.crystal-style {
+	height: 60px;
+	margin: 10px;
+}
+
+/* Styling the scores container */
+#scores {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Styling the scores title */
+h2 {
+    margin-top: 15px;
+}
+
+/* Styling the scores number */
+#losses, #wins, #total-score {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}

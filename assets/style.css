@@ -1,0 +1,14 @@
+
+h1 {
+    margin: 30px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.instructions {
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 20px;
+}
