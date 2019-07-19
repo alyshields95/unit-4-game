@@ -62,3 +62,73 @@ function loser() {
     reset();
 }
 
+//BLOCK FOR CRYSTALS//
+
+//PINK//
+
+$("#cbest").on("click", function(){
+
+    score += pinkCrystal
+
+    $("#total-score").text(score); 
+
+    if (score == randomNumber){
+        winner();
+    }
+
+    else if ( score > randomNumber){
+        loser();
+    }
+});
+
+//BLUE//
+
+$("#cblue").on("click", function(){
+
+    score += blueCrystal
+
+ 
+    $("#total-score").text(score); 
+
+    if (score == randomNumber){
+        winner();
+    }
+
+    else if ( score > randomNumber){
+        loser();
+    }
+});
+
+//GREEN//
+$("#cgreen").on("click", function(){
+
+    score += greenCrystal
+
+    
+    $("#total-score").text(score); 
+    
+    if (score == randomNumber){
+        winner();
+    }
+
+    else if ( score > randomNumber){
+        loser();
+    }
+});
+
+//YELLOW//
+$("#cyellow").on("click", function(){
+    
+    score += yellowCrystal
+
+
+    $("#total-score").text(score); 
+    
+    if (score == randomNumber){
+        winner();
+    }
+
+    else if ( score > randomNumber){
+        loser();
+    }
+});
