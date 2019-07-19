@@ -26,7 +26,7 @@ function reset(){
 
     $("#number").text(randomNumber);
     
-    //Reset random number for crystals
+    //Reset 
     pinkCrystal = Math.floor(Math.random()*11+1);
     blueCrystal = Math.floor(Math.random()*11+1);
     greenCrystal = Math.floor(Math.random()*11+1);
@@ -47,6 +47,18 @@ function winner() {
     $("#wins").text(wins);
 
     //Reset
+    reset();
+}
+//LOSE//
+function loser() {
+
+    alert ("Loser!");
+
+    losses ++;
+
+    $("#losses").text(losses);
+
+//RESET//
     reset();
 }
 

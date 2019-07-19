@@ -31,3 +31,24 @@ h1 {
 #crystals {
     text-align: center;
 }
+
+.crystal-style {
+	height: 60px;
+	margin: 10px;
+}
+
+#scores {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+    margin-top: 15px;
+}
+
+#losses, #wins, #total-score {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
