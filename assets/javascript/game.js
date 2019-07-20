@@ -62,13 +62,13 @@ function loser() {
     reset();
 }
 
-//BLOCK FOR CRYSTALS//
+//BLOCK FOR CANDY//
 
-//PINK//
+//MMS//
 
 $("#cbest").on("click", function(){
 
-    score += pinkCrystal
+    score += mmsCandy
 
     $("#total-score").text(score); 
 
@@ -81,11 +81,11 @@ $("#cbest").on("click", function(){
     }
 });
 
-//BLUE//
+//GUMMY//
 
 $("#cblue").on("click", function(){
 
-    score += blueCrystal
+    score += gummyCandy
 
  
     $("#total-score").text(score); 
@@ -99,10 +99,10 @@ $("#cblue").on("click", function(){
     }
 });
 
-//GREEN//
+//HERSHEY//
 $("#cgreen").on("click", function(){
 
-    score += greenCrystal
+    score += hersheyCandy
 
     
     $("#total-score").text(score); 
@@ -116,10 +116,10 @@ $("#cgreen").on("click", function(){
     }
 });
 
-//YELLOW//
+//TWIZZLERS//
 $("#cyellow").on("click", function(){
     
-    score += yellowCrystal
+    score += twizzlersCandy
 
 
     $("#total-score").text(score); 
