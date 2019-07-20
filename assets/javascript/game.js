@@ -4,10 +4,10 @@ var randomNumber = Math.floor(Math.random()*102+19);
 
 $("#number").text(randomNumber);
 
-var pinkCrystal = Math.floor(Math.random()*11+1);
-var blueCrystal = Math.floor(Math.random()*11+1);
-var greenCrystal = Math.floor(Math.random()*11+1);
-var yellowCrystal = Math.floor(Math.random()*11+1);
+var mmsCandy = Math.floor(Math.random()*11+1);
+var gummyCandy = Math.floor(Math.random()*11+1);
+var hersheyCandy = Math.floor(Math.random()*11+1);
+var twizzlersCandy = Math.floor(Math.random()*11+1);
 
 var wins = 0;
 
@@ -27,10 +27,10 @@ function reset(){
     $("#number").text(randomNumber);
     
     //Reset 
-    pinkCrystal = Math.floor(Math.random()*11+1);
-    blueCrystal = Math.floor(Math.random()*11+1);
-    greenCrystal = Math.floor(Math.random()*11+1);
-    yellowCrystal = Math.floor(Math.random()*11+1);
+    mmsCandy = Math.floor(Math.random()*11+1);
+    gummyCandy = Math.floor(Math.random()*11+1);
+    hersheyCandy = Math.floor(Math.random()*11+1);
+    twizzlersCandy = Math.floor(Math.random()*11+1);
 
     score = 0;
 
