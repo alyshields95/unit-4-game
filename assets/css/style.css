@@ -8,6 +8,17 @@ h1 {
     font-size: 40px;
 }
 
+
+div.wrapper {
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: auto;
+    width: 960px;
+    padding-bottom: 40px;
+}
+
 /* Styling the instructions */
 .instructions {
     margin-right: 300px;
